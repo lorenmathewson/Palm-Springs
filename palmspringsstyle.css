@@ -1,0 +1,142 @@
+main {
+  display: flex;
+  min-height: 40vh;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  font-size: 1.25em;
+  line-height: 1.25;
+  margin: 0;
+  background-image: url('acehotelpalmsprings.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+#holiday-options {
+  display:none;
+}
+
+#back {
+  display: none;
+  margin-right: 100%;
+}
+
+header, footer {
+  min-height: 10vh;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+  font-size: 70px;  /*on page load - slide down*/
+  -webkit-font-smoothing: antialiased;
+}
+
+#howlongselection {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: #a5a5a5;
+  margin: 0 auto;
+  font-size: 17px;
+  background: #fff;
+  border: 0.5px solid #a5a5a5;
+  width: 300px;
+  margin-top: 10%;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  height: 32px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'Lato', sans-serif;
+  color: #59555e;
+  height: 65vh;
+  width: 25%;
+  line-height: 130%;
+  padding: 1em;
+  margin: 1em;
+}
+section img {
+  display: flex;
+  align-self: center;
+  height: 60%;
+  width: 90%;
+}
+
+p {
+  margin-top: 1em;;
+  font-size: 17px;
+}
+
+#back {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0 0 1em;
+  margin-top: 0;
+  font-family: font-family: 'Lato', sans-serif;
+}
+
+a:visited {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+#back p  a {
+  padding-left: 0.3em;
+  padding-top: 0;
+  color: white;
+}
+
+#back a:hover {
+    color: darkblue;
+}
+
+header p {
+  margin: 0;
+}
+
+
+@media screen and (min-width: 480px;) {  /* for responsive design*/
+  aside article: nth-child(n + 2) {
+
+  }
+}
+
+@media screen and (max-width: 480px;) {
+  main, aside {
+    flex-direction: column;
+
+  }
+
+  main section:nth-child(even) {
+
+
+}
